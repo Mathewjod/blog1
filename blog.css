@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #fff;
+    color: #222;
+    line-height: 1.8; 
+}
+
+
+.top {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9e5cb; 
+}
+
+.top h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.top h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    
+}
+
+.top p {
+    max-width: 900px;
+    margin: auto;
+   
+    font-size: 1.05rem;
+}
+
+
+.sc, .sc2, .sc3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px; 
+    gap: 40px;
+}
+
+.sc img, .sc2 img, .sc3 img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px; 
+}
+
+
+.s1, .s2, .s3 {
+    max-width: 500px;
+}
+
+.s1 h2, .s2 h2, .s3 h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.s1 p, .s2 p, .s3 p {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+@media (max-width: 768px) {
+    .sc, .sc2, .sc3 {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .s1, .s2, .s3 {
+        max-width: 100%;
+    }
+
+    .sc img, .sc2 img, .sc3 img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
